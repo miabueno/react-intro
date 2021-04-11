@@ -5,7 +5,12 @@ import emojipedia from "../emojipedia";
 
 const createEntry = (emoji) => {
   return (
-    <Entry name={emoji.name} emoji={emoji.emoji} meaning={emoji.meaning} />
+    <Entry
+      key={emoji.id}
+      name={emoji.name}
+      emoji={emoji.emoji}
+      meaning={emoji.meaning}
+    />
   );
 };
 

@@ -4,5 +4,6 @@ Created with CodeSandbox
 
 #### Learning Outcomes:
 
-- How to map components
-  - component entries retrieved from js array
+- how to extract and add components
+- how to map commonents
+- how to use props
